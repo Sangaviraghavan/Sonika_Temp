@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sonikka</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/imagesandvectors/logonew.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel.min.css">
+    <link rel='stylesheet' href='assets/css/style.css'>
+    <link rel='stylesheet' href='assets/css/hamburger.css'>
+    <link rel='stylesheet' href='assets/css/index.css'>
+</head>
+
+<body>
+    <div class="index-logo">
+        <a class="navbar-brand nav-logo d-flex align-items-end m-0" href="index.html" data-aos="fade-down"
+            data-aos-duration="1000">
+            <img src="assets/imagesandvectors/logonew.png" alt="">
+            <p class="m-0 nav-text">Sonikka</p>
+        </a>
+    </div>
+    <section id="tour">
+        <div class="container d-lg-flex justify-content-center align-items-center common-padding" id="container"
+            data-aos="fade">
+            <div class="inner-container mx-3 mt-5 mt-lg-0" data-aos="fade-right" data-aos-duration="600">
+                <h1 class="tertary-header mb-2 w-100">For Construction Layout Promotions & Joint Ventures</h1>
+                <p class="primary-text text-white mb-2">From Concept To Completion, We're Your Partners In Crafting
+                    Exceptional Properties. Explore Lucrative Layout Promotions, Navigate Joint Ventures With Ease, And
+                    Build With Expertise. Let's Turn Your Vision Into Reality.</p>
+                <a class="btn1" href="promoters.html">Click Here</a>
+            </div>
+            <div class="inner-container mx-3 my-5 my-lg-0" data-aos="fade-left" data-aos-duration="600">
+                <h1 class="tertary-header mb-2 w-100">For Legal Consultations & Opinions <span style="opacity:0;"
+                        class="tertary-header">Joint Ventures</span></h1>
+                <p class="primary-text text-white mb-2">Don't Let Legal Complexities Stall Your Property Goals. Secure
+                    Clear, Expert Advice On Contracts, Disputes, And Transactions. Our Legal Eagles Ensure Smooth
+                    Sailing, Every Step Of The Way. Get Peace Of Mind, Get Informed. </p>
+                <a class="btn1" href="consultants.html">Click Here</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="owl-carousel">
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-1.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-2.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-3.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-4.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-5.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-6.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-7.jpg" alt="">
+            </div>
+            <div>
+                <img src="assets/imagesandvectors/gallery/gallery-8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src='assets/js/bootstrap.bundle.min.js'></script>
+    <script src='assets/js/aos.js'></script>
+    <script src='assets/js/owl.carousel.min.js'></script>
+    <script>
+        AOS.init();
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                // stagePadding: 50,
+                loop: true,
+                // margin: 3,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 2
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 6
+                    }
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
